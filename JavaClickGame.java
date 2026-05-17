@@ -23,7 +23,7 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
 
-public class AI_ClickGame {
+public class JavaClickGame {
 
     // ── Inner class: GamePanel ────────────────────────────────────────────────
     static class GamePanel extends JPanel implements MouseListener {
@@ -135,7 +135,7 @@ public class AI_ClickGame {
         Constructor of the outer class, which will call the methods below to start the game.
         Then, makes the mainFrame visible
     */
-    AI_ClickGame(){
+    JavaClickGame(){
         buildFrame();
         buildInputPanel();
         wireListeners();
@@ -257,7 +257,7 @@ public class AI_ClickGame {
         The main method. It calls the constructor. Thus, being the entry point
     */
     public static void main(String[] args) {
-        new AI_ClickGame();
+        new JavaClickGame();
     }
 }
 /*
