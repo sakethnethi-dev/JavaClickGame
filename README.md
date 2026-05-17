@@ -1,1 +1,2 @@
-# JavaClickGame
+# Java Click Game
+This program is a two-phase square-clicking speed game in a single Java Swing file made in Java. Phase 1 shows an input screen where the user types a number (4–8) into a JTextField and clicks Begin (ActionListener) to proceed. Invalid input is shown on a red JLabel. Phase 2 swaps to a GamePanel (JPanel subclass) that draws the N largest squares from a set of 8 static squares of varying sizes using Graphics2D (fillRect + drawRect). The timer starts as soon as Begin is clicked. A MouseListener detects square hits and removes them; when all are cleared the elapsed time is shown in a JLabel. A Reset JButton (ActionListener) returns to Phase 1.
